@@ -1,11 +1,16 @@
 <?php
 session_start();
-define('MY_APP', true);
+
 
 if(!isset($_SESSION['admin_logged_in'])) {
-    header("Location: login.php");
+
+    header('Location: login.php');
     exit;
 }
+
+require_once "includes/config.php";
+
+define('MY_APP', true);
 
 // Get hal
 $page = isset($_GET['hal']) ? $_GET['hal'] : 'dashboard';
