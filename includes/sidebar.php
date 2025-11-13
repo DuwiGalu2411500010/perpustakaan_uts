@@ -66,7 +66,7 @@
                         <a class="nav-link" href="layout-static.html">Konfirmasi</a>
                     </nav>
                 </div>
-                <a class="nav-link" href="charts.html">
+                <a class="nav-link" href="logout.php">
                     <div class="sb-nav-link-icon"><i class="fas fa-sign-out"></i></div>
                     Logout
                 </a>
